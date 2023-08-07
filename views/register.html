@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <title>Creá tu cuenta</title>
+</head>
+<body>
+    <header>
+        <div class="inicio">
+        <img class="logo" src="/images/logo-mercado-liebre.svg">
+        <form class="buscador" action="" method="GET"><label for="busc"><input type="text" name="buscador" value="Buscar producto, marca..."><i class="fas fa-search"></i></label></form>
+        <p class=compra> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        <a href="" class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav class="barrita">
+            <ul>
+                <li><a href= " ">Ofertas </a></li>
+                <li><a href= " ">Tiendas Oficiales </a></li>
+                <li><a href= " ">Vender </a></li>
+                <li><a href= " ">Ayuda </a></li>
+            </ul>
+            <ul>
+                <li><a href="/views/register.html">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="/views/login.html">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href= " ">Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+        </header>
+        <img class="banner" src="/images/img-home-banner.jpg">
+<div class="formulario">
+    <h2>Creá tu cuenta</h2> 
+    <p>Datos personales</p>
+    <form>
+    <input type="text" name="nya" value="Nombre y Apellido">
+    <input type="text" name="nus" value= "Nombre de usuari@">
+    <label for= "fechaDeNac">Fecha de Nacimiento: <input type="date" name="fechaDeNac" id="fechaDeNac"></label>
+    <input type="text" name="domicilio" value="Domicilio">
+    </form>
+    <p>Perfil del Usuario</p>
+    <form class="perfil">
+    <label for= "perfilUs"><input type="radio" name="perfilDelUs" id="perfilUs"> Comprador</label>
+    <label for= "perfilUsu"><input type="radio" name="perfilDelUs" id="perfilUsu"> Vendedor</label>
+    </form>
+    <p>Categorías de Interés</p>
+    <form>
+    <label for="catDeIn"><input type="checkbox" name="intereses" id="catDeIn"> Electro</label>
+    <label for="catDeInt"><input type="checkbox" name="intereses" id="catDeInt"> Moda</label>
+    <label for="catDeIne"><input type="checkbox" name="intereses" id="catDeIne"> Hogar</label>
+    <label for="catDeInr"><input type="checkbox" name="intereses" id="catDeInr"> Juguetería</label>
+    <label for="catDeIns"><input type="checkbox" name="intereses" id="catDeIns"> Vida sana</label>
+    </form>
+    <p>Datos de Ingreso</p>
+    <form>
+    <label class="foto" for="foto">Foto de perfil: <input type="file" name="foto" id="foto"></label>
+    <input type="email" name="e-mail" value="Email">
+    <label for="contraseña">Contraseña: <input type="password" name="contraseña"></label>
+    <label for="confContraseña">Confirmar contraseña: <input type="password" name="confContraseña" id="confContraseña"></label>
+    <div class="botones"><button type="submit"><a href="">Enviar</a></button>
+    <button type="reset">Borrar</button>
+    </div>
+</form>
+</div>
+</body>
+</html>
