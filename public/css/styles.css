@@ -62,15 +62,19 @@ main section{
 }
 main section article{
     margin: 10px;
+    transition: all, 0.5s;
+}
+main section article:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    
 }
 .productos{
     background-color: white;
     border-top: solid 1px #ebebeb;
     padding: 15px;
     position: relative;
+    transition: all,0.5s;
 }
+
 .titulares{
     font-size: 24px;
     padding: 15px 0  0  15px ;
@@ -101,10 +105,16 @@ main section article{
     border-radius: 50%;
     right: 20px;
     top: -25px;
-    position: absolute
+    position: absolute;
+    transition: all, 0.5s;
 }
+.camion:hover{
+    transform: rotateZ(-90deg);
+}
+
 .descrip{
     margin-top: 15px;
+
 }
 footer section{
     display: flex;
@@ -172,6 +182,19 @@ div h2{
     flex-direction: row;
     justify-content: flex-end;
 }
+.botonA{
+    transition: all, 0.5s;
+}
+.botonA a{
+    transition: all, 0.5s;
+}
+.botonA a:hover{
+    color: white
+}
+.boton-env button:hover{
+     background-color: #02a;
+}
+
 .botones button{
     background-color: #EAC926;
     max-width: 70px;
@@ -180,7 +203,10 @@ div h2{
     border-radius: 5px;
     font-size: 18px;
     text-align: center;
-    border: solid 1px #EAC926
+    border:sold 1px #EAC926;
+}
+.botones .botonA:hover{
+    background-color: #02a;
 }
 .botones button a{
     text-decoration: none;
@@ -200,10 +226,15 @@ div h2{
     font-size: 18px;
     text-align: center;
     border: solid 1px #EAC926;
+    transition: all, 0.5s;
 }
 .boton-env button a{
     text-decoration: none;
-    color:black
+    color:black;
+    transition: all, 0.5s
+}
+.boton-env button a:hover{
+    color:white
 }
 div form input{
     font-size: 15px;
