@@ -71,6 +71,9 @@ main section article{
 }
 main section article:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    .productos h4{
+        display:block
+    }
 }
 .productos{
     background-color: white;
@@ -116,11 +119,11 @@ main section article:hover{
 .camion:hover{
     transform: rotateZ(-90deg);
 }
-
-.descrip{
-    margin-top: 15px;
-
+.productos h4{
+    display:none;
+    margin-top: 10px;
 }
+
 footer section{
     display: flex;
     flex-direction: column;
